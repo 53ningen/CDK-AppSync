@@ -1,0 +1,39 @@
+{
+  "name": "hello-appsync",
+  "version": "0.1.0",
+  "bin": {
+    "hello-appsync": "bin/hello-appsync.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "jest",
+    "cdk": "cdk",
+    "generate": "graphql-codegen --config codegen.yml"
+  },
+  "devDependencies": {
+    "@aws-cdk/assert": "1.120.0",
+    "@aws-cdk/aws-appsync": "^1.120.0",
+    "@aws-cdk/aws-lambda-nodejs": "^1.120.0",
+    "@graphql-codegen/cli": "2.1.1",
+    "@graphql-codegen/introspection": "2.1.0",
+    "@graphql-codegen/typescript": "^2.1.2",
+    "@graphql-codegen/typescript-graphql-request": "^4.1.2",
+    "@graphql-codegen/typescript-operations": "^2.1.2",
+    "@graphql-codegen/typescript-resolvers": "2.1.2",
+    "@types/jest": "^27.0.1",
+    "@types/node": "16.7.7",
+    "@types/node-fetch": "^2.5.12",
+    "aws-cdk": "1.120.0",
+    "jest": "^27.1.0",
+    "node-fetch": "^2.6.1",
+    "ts-jest": "^27.0.5",
+    "ts-node": "^10.2.1",
+    "typescript": "~4.4.2"
+  },
+  "dependencies": {
+    "@aws-cdk/core": "1.120.0",
+    "graphql": "^15.5.2",
+    "source-map-support": "^0.5.16"
+  }
+}

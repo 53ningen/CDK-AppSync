@@ -1,0 +1,8 @@
+type Query {
+  sayHello: String!
+  sayHelloLambda(yourName: String!): String!
+}
+
+schema {
+  query: Query
+}

@@ -1,0 +1,3 @@
+query sayHelloLambda($yourName: String!) {
+	sayHelloLambda(yourName: $yourName)
+}
